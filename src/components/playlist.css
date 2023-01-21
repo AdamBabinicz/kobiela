@@ -1,0 +1,8 @@
+.card_div .car {
+  height: fit-content;
+}
+.card_div img {
+  width: 20rem;
+  height: auto;
+  object-fit: contain;
+}
