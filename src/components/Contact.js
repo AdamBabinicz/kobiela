@@ -75,7 +75,7 @@ const Contact = () => {
         <div className="container mt-2">
           <Form className="row mt-2">
             <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
-              <Form.Label>Fname</Form.Label>
+              <Form.Label>Imię</Form.Label>
               <Form.Control
                 type="text"
                 name="fname"
@@ -84,7 +84,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
-              <Form.Label>Lname</Form.Label>
+              <Form.Label>Nazwisko</Form.Label>
               <Form.Control
                 type="text"
                 name="lname"
@@ -102,7 +102,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
-              <Form.Label>Mobile</Form.Label>
+              <Form.Label>Telefon</Form.Label>
               <Form.Control
                 type="text"
                 name="mobile"
@@ -114,7 +114,7 @@ const Contact = () => {
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Label>Message</Form.Label>
+              <Form.Label>Wiadomość</Form.Label>
               <Form.Control
                 as="textarea"
                 rows={4}
@@ -130,7 +130,7 @@ const Contact = () => {
                 type="submit"
                 onClick={sentUserdata}
               >
-                Submit
+                Wyślij
               </Button>
             </div>
           </Form>
