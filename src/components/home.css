@@ -53,6 +53,9 @@
   .home_container .home_innerdiv .right_div img {
     max-width: 380px;
   }
+  .h2_right {
+    display: none;
+  }
 }
 
 @media (max-width: 400px) {
