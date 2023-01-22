@@ -17,11 +17,11 @@ const Header = () => {
       <Navbar bg="light" variant="light">
         <Container>
           <div>
-            <h2 className="mt-2 h2_right" style={{ color: "#6c63ff" }}>
+            <h1 className="mt-2 h2_right" style={{ color: "#6c63ff" }}>
               <NavLink to="/" className="text-decoration-none">
                 Bogumił Kobiela
               </NavLink>
-            </h2>
+            </h1>
           </div>
           <Nav className="">
             <div className="mt-2">
