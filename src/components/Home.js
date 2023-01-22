@@ -13,9 +13,9 @@ const Home = () => {
       <div className="container home_container">
         <div className="home_innerdiv">
           <div className="left_div">
-            <h2>
+            <h1>
               Bobek <span style={{ color: "#6c63ff" }}>i jego pasja</span>
-            </h2>
+            </h1>
             <p style={{ color: "#666", letterSpacing: ".5px", marginTop: 2 }}>
               Bogumił Kobiela był jedną z największych gwiazd polskiego kina lat
               60. XX wieku. Aktor zyskał ogromną popularność dzięki roli Jana
